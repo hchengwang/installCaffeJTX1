@@ -20,7 +20,7 @@ sudo usermod -a -G video $USER
 # Place caffe in the home directory
 cd ~/
 # Git clone Caffe
-git clone https://github.com/BVLC/caffe.git
+git clone https://github.com/hchengwang/caffe.git
 cd caffe 
 cp Makefile.config.example Makefile.config
 # Dec. 7, 2015; This only appears in once place currently
